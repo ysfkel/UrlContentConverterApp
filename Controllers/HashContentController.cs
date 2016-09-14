@@ -26,11 +26,5 @@ namespace ResponseConvetter.Controllers
          
          } 
 
-            [HttpGet]
-         public IActionResult Get()
-         {
-             
-             return StatusCode(200,new {name="yusuf"});
-         } 
      }
 }
